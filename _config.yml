@@ -1,0 +1,24 @@
+name: DC Web Experts
+description: Software and web design.
+author: DC Web Experts
+author_email: srscottrick@gmail.com
+url: https://dcwebexperts.github.io
+permalink: pretty
+exclude: [README.markdown, Readme.org, README.md]
+plugins:
+  - jekyll-paginate
+paginate: 2
+paginate_path: "/blog/page:num/"
+mainMenu:
+  -
+    title: "Home"
+    url: "/"
+  -
+    title: "Blog"
+    url: "/blog/"
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default"
